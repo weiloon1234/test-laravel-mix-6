@@ -1,0 +1,41 @@
+{
+  "name": "Web-W",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "development": "mix",
+    "watch": "mix watch",
+    "watch-poll": "mix watch -- --watch-options-poll=1000",
+    "hot": "mix watch --hot",
+    "production": "mix --production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vue/compiler-sfc": "^3.0.2",
+    "cross-env": "^7.0.2",
+    "laravel-mix": "^6.0.0-beta.14",
+    "postcss": "^8.1.10",
+    "resolve-url-loader": "^3.1.0",
+    "sass": "^1.29.0",
+    "sass-loader": "^8.0.2",
+    "vue-loader": "^16.0.0-beta.9",
+    "vue-template-compiler": "^2.6.12"
+  },
+  "dependencies": {
+    "js-cookie": "^2.2.1",
+    "mitt": "^2.1.0",
+    "nprogress": "^1.0.0-1",
+    "object-to-formdata": "^4.1.0",
+    "tailwindcss": "^2.0.1",
+    "vue": "^3.0.2",
+    "vue-i18n": "^9.0.0-beta.7",
+    "vue-moment": "^4.1.0",
+    "vue-router": "^4.0.0-rc.3"
+  }
+}
